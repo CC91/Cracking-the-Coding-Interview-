@@ -19,8 +19,7 @@ ListNode *initList(int m[], int n) {
         }
         tmp->next = node;
         tmp = node;
-    }
-    
+    } 
     int i=0;
     while (i!=n/2) {
         head = head->next;
