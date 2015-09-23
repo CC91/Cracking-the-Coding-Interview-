@@ -34,7 +34,7 @@ ListNode *partitionX(ListNode *head, int x) {
     }
     ListNode *last = tmp;
     
-    ListNode *dummy = new ListNode();
+    ListNode *dummy = new ListNode(); // no need to change the original head
     dummy->next = head;
     
     while (len-1) {
