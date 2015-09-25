@@ -38,27 +38,24 @@ bool palin(ListNode *head) {
     int len = getLength(head);
     ListNode *p = head;
     stack<int> s;
-    for (int i=1; i<len/2; i++){
+    for (int i=0; i<len/2; i++){
         s.push(p->val);
         p = p->next;
     }
-
+    
     if (len%2!=0) p=p->next;
     while (!s.empty()) {
-        p = p->next;
         int tmp = s.top(); s.pop();
         if (tmp != p->val) return false;
+        p = p->next;
     }
     return true;
 }
 
 
 int main() {
-    int test[] = {9,2,1,5,1,2,9};
-    ListNode *head = initList(test, 8);
+    int test[] = {1,2,1,2,1};
+    ListNode *head = initList(test, 5);
     int a = palin(head);
     cout<<a<<endl;
 }
-
-
-
