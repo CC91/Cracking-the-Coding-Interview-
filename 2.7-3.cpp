@@ -2,7 +2,7 @@
 #include <string>
 #include <stack>
 using namespace std;
-// iterative approach, scan the list to get the length
+// iterative approach, two pointers
 
 struct ListNode {
     int val;
