@@ -41,7 +41,7 @@ struct node* lca(struct node* root, struct node* n1, struct node* n2) {
     
     if (x && y) return root; // n1 and n2 found in different subtrees, and also found the common ancester
     else if (root==n1 || root==n2) return root;
-    else return x==NULL?y:x; // if either x or y is non-null, return the non-null
+    else return x==NULL?y:x; // if either x or y is null, return the non-null
 }
 
 int main() {
