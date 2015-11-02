@@ -1,0 +1,5 @@
+Mutilated chessboard problem
+
+1) On the regular chess board, there are 32 black and 32 white squares. If we cut off the diagonal 2 squares which share the same color, we would have (30 white, 32 black) or (30 black, 32 white). 
+
+2) When we place a domino on the chess board, it has to cover both a black and a white squares. However, we have different numbers of squares of white and black. As a result, it is impossible to use 31 dominos to cover unbalanced number of black and white squares.
