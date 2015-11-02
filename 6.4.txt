@@ -1,0 +1,16 @@
+Assume that there are n people on the island and c of them have blue eyes, and c>0;
+
+Case c=1: Exactly one person has blue eyes.
+This person should look around and realize that he is the only one that has blue eye, so he would take the flight that day.
+
+Case c=2: Exactly two persons have blue eyes.
+Two people look at each other, they are not sure whether c is 1 or 2. From the previous case, if c=1, the blue-eyed person would leave on the first night. Therefore, if the other blue-eyed person is still there, he must deduce that c=2, which means he himself is also blue-eyed. Both of these two persons would leave on the second night. 
+
+Case c>2: The general case.
+As we increase c, we can still follow the above logic. If c=3, these 3 people will immediately know that there are either 2 or 3 people with blue eyes. If there were 2 people, then those 2 people would have left on the second night. So when the others are still there after that night, each person would deduce that c=3 and these 3 people have blue eyes, they would leave on third night. 
+
+The same pattern extends up through any value of c. Therefore, if c people have blue eyes, it will take c nights for the blue-eyed persons to leave. 
+
+
+
+
