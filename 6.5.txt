@@ -1,0 +1,5 @@
+The number of egg1 and egg2 drop times are consistent, assume egg1 drops x times, and egg2 drops y times. x+y=c, c is consistent.
+
+Egg1 starts from xth floor, every time egg1 drops once, the number of egg2 drops will decrease 1 in order to keep c unchanged. Therefore, egg1 must start at floor x, thrn go up by x-1, then x-2,... to keep y decreasing linearly and c unchanged at the same time until egg1 reach to the 100th floor:
+x+(x-1)+(x-2)+...+1=100 
+x=14
