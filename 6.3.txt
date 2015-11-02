@@ -1,4 +1,4 @@
-	Jug 5	|	Jug 3	|Note
+	Jug 5		|	Jug 3		|Note
 	0		|	3		| Filled jug 3.
 	3		|	0		| Filled jug 5 with jug 3's water.
 	3		|	3		| Filled jug 3.
