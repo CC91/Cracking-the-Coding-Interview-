@@ -1,0 +1,8 @@
+1) A door n is toggled once for each factor of n including iteself and 1.
+
+2) A door is left open if the number of factors is odd (open->close->open).
+
+3) Assume locker i can be divisible by a, b, c (inclusing 1 and itself), then locker i will be changed 3 times and left open. 
+
+4) Therefore, we only need to find numbers who have odd number of factors. Since if i is divisible by a, it is also divisible by i/a. We can see that factors appear by pairs. In order to get odd number of factors, there should be an equal pair, that is
+a=i/a, a^2=i. As a result, the open lockers are perfect squares which are 1, 4, 9, 16, 25, 36, 49, 64, 81, 100. 
