@@ -1,0 +1,8 @@
+1) Take 1 pill from B1, 2 pills from B2, 3 pills from B3, ..., 20 pills from B20.
+
+2) If all pills were 1g each, the weight of all taken pills would be (1+2+3+...+20)= 210g. Any overage must come from the 1.1 pills.
+ 
+3) The following function will indicate the bottle number:
+number = (weight - 210) / 0.1
+
+i.e., if w=211.4, number = 14, bottle 14 has the heavy pills.
