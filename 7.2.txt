@@ -1,0 +1,11 @@
+1) The only way that 3 ants won't collide is when they are all moving in the same direction like clockwise or counter clockwise. 
+
+P(clockwise) = (1/2)^3
+P(counter clockwise) = (1/2)^3
+
+Therefore, P(collision) = 1-2(1/2)^3 = 3/4
+
+2) n-vertex polygon:
+P(clockwise) = (1/2)^n
+P(counter clockwise) = (1/2)^n
+Therefore, P(collision) = 1 - 2(1/2)^n = 1-(1/2)^(n-1)
