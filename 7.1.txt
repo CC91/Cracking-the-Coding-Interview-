@@ -1,0 +1,12 @@
+p is the probability of making a particular shot.
+
+1) Probability of winning Game 1: p
+
+2) Probability of winning Game 2:
+P(G2) = p^3+3(1-p)^2 = 3p^2-2p^3
+
+3) You should play G1 when p>(3p^2-2p^3) 
+(2p-1)(p-1)>0, since p<1, p<1/2
+
+So when p<0.5 we play G1. If p=0.5 or 1 or 0, it does not matter which game we play.
+
